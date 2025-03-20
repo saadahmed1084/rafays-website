@@ -16,6 +16,7 @@ body {
 
 .container {
     margin: 0 2%;
+    position: relative
 }
 
 #header {
@@ -68,6 +69,11 @@ nav ul li a:hover::after {
 
 .header-text {
     font-size: 60px;
+    position: absolute;
+    bottom: 20px;
+    /* Moves the element 20 pixels from the bottom of its positioned ancestor.
+    If its parent is position: relative;, it will stay within that section.
+    If there's no relative ancestor, it will be 20px above the bottom of the whole page. */
 }
 
 .header-text span {

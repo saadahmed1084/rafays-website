@@ -16,7 +16,6 @@ body {
 
 .container {
     margin: 0 2%;
-    position: relative;
 }
 
 #header {
@@ -25,6 +24,11 @@ body {
     background-image: url(background-image.png);
     background-size: cover;
     background-position: 90% center;
+}
+
+#header .container {
+    height: 100vh;
+    position: relative;
 }
 
 nav {

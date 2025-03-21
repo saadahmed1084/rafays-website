@@ -29,6 +29,8 @@ body {
 #header .container {
     height: 100vh;
     position: relative;
+    /* We have set the text to be at the bottom of the div, but we had not specified where exactly this bottom is.
+    Although the div's BG image was set to 100vh, its height is not in sync with the div itself, and we also have to do so for the div. */
 }
 
 nav {

@@ -85,6 +85,10 @@ nav ul li a {
     position: relative;
 }
 
+@media (orientation: landscape) {
+    nav ul li a { font-size: 18px; }
+}
+
 nav ul li a::after {
     content: "";
     width: 0%;

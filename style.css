@@ -34,8 +34,8 @@ body {
 }
 
 .header-text {
-    font-size: 5rem;
-    line-height: 0.9;
+    font-size: 4rem;
+    line-height: 1;
     position: absolute;
     text-shadow:
     -1px -1px 0 black,

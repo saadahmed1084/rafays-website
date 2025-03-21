@@ -76,7 +76,12 @@ nav ul li a:hover::after {
 .header-text {
     font-size: 60px;
     position: absolute;
-    -webkit-text-stroke: 0.75px black;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+    /* -webkit-text-stroke: 0.75px black;    best method but not supported on firefox */
     bottom: 20px;
     /* Moves the element 20 pixels from the bottom of its positioned ancestor.
     If its parent is position: relative;, it will stay within that section.

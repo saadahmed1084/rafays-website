@@ -34,7 +34,7 @@ body {
 }
 
 .header-text {
-    font-size: 5rem;
+    font-size: 10vh;
     line-height: 1;
     position: absolute;
     text-shadow:

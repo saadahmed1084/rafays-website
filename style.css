@@ -33,6 +33,26 @@ body {
     Although the div's BG image was set to 100vh, its height is not in sync with the div itself, and we also have to do so for the div. */
 }
 
+.header-text {
+    font-size: 2.5rem;
+    line-height: 0.75;
+    position: absolute;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+    /* -webkit-text-stroke: 0.75px black;    best method but not supported on firefox */
+    bottom: 20px;
+    /* Moves the element 20 pixels from the bottom of its positioned ancestor.
+    If its parent is position: relative;, it will stay within that section.
+    If there's no relative ancestor, it will be 20px above the bottom of the whole page. */
+}
+
+.header-text span {
+    color: yellowgreen;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -71,25 +91,6 @@ nav ul li a::after {
 
 nav ul li a:hover::after {
     width: 100%;
-}
-
-.header-text {
-    font-size: 60px;
-    position: absolute;
-    text-shadow:
-    -1px -1px 0 black,
-     1px -1px 0 black,
-    -1px  1px 0 black,
-     1px  1px 0 black;
-    /* -webkit-text-stroke: 0.75px black;    best method but not supported on firefox */
-    bottom: 20px;
-    /* Moves the element 20 pixels from the bottom of its positioned ancestor.
-    If its parent is position: relative;, it will stay within that section.
-    If there's no relative ancestor, it will be 20px above the bottom of the whole page. */
-}
-
-.header-text span {
-    color: yellowgreen;
 }
 
 #about {

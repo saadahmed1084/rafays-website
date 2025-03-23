@@ -36,7 +36,6 @@ body {
 .header-text {
     font-size: 7.5vh;
     line-height: 1;
-    position: absolute;
     
     text-shadow:
     -1px -1px 0 black,
@@ -50,6 +49,7 @@ body {
         }
     }
     /* textstrokes are the more efficient method, but not supported by firefox */
+    position: absolute;
     bottom: 20px;
     /* Moves the element 20 pixels from the bottom of its positioned ancestor.
     If its parent is position: relative;, it will stay within that section.

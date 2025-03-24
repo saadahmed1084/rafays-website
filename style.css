@@ -14,8 +14,8 @@ body {
     color: #fff;
 }
 
-.container { margin: 0 5%; }
-#header .container { margin: 0 2%; }
+.container { margin: 0 2%; }
+#services .container, #portfolio .container { margin: 0 5%; }
 
 #header {
     width: 100%;

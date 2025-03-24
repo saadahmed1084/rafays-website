@@ -15,7 +15,7 @@ body {
 }
 
 .container { margin: 0 2%; }
-#services .container, #portfolio .container { margin: 0 5%; }
+.services-list, .work-list { margin: 0 3vw; }
 
 #header {
     width: 100%;

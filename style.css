@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    margin: 0 2%;
+    margin: 0 5%;
 }
 
 #header {
@@ -71,10 +71,6 @@ nav {
     margin-top: 10px;
     width: 15vh;
     height: 15vh;
-}
-
-.fa-solid fa-bars {
-    margin-right: 100%;
 }
 
 nav ul li {
@@ -390,7 +386,7 @@ nav .fa-solid {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     nav ul {
         background: #ff004f;
         position: fixed;
@@ -411,6 +407,10 @@ nav .fa-solid {
     nav .fa-solid {
         display: block;
         font-size: 25px;
+    }
+
+    .fa-solid fa-bars {
+        margin-right: 50%;
     }
     
     nav ul .fa-solid {

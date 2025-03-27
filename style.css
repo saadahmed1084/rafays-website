@@ -411,9 +411,10 @@ nav .fa-solid {
     nav ul .fa-solid {
         position: absolute;
         top: 25px;
-        left: 50px;
         cursor: pointer;
     }
+    .fa-solid fa-bars { right: 20px; }
+    .fa-solid fa-circle-xmark { left: 25px; }
     
     .sub-title {
         font-size: 40px;

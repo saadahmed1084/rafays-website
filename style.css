@@ -385,7 +385,7 @@ nav .fa-solid {
     display: none;
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) {
     nav ul {
         background: #ff004f;
         position: fixed;
@@ -407,15 +407,11 @@ nav .fa-solid {
         display: block;
         font-size: 25px;
     }
-
-    .fa-solid fa-bars {
-        margin-right: 50%;
-    }
     
     nav ul .fa-solid {
         position: absolute;
         top: 25px;
-        left: 25px;
+        left: 50px;
         cursor: pointer;
     }
     

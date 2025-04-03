@@ -386,11 +386,9 @@ nav .fa-solid {
 }
 
 @media only screen and (max-width: 700px) {
-    nav { position: relative; top: 0; }
-    
     nav ul {
         background: #262626;
-        position: relative;
+        position: fixed;
         top: 0;
         right:-200px;
         width: 200px;

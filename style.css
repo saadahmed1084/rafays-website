@@ -394,7 +394,7 @@ nav .fa-solid {
         width: 120px;
         height: 250px;
         padding-top: 50px;
-        z-index: 2;
+        z-index: 3;
         transition: right 0.5s;
         border-left: 2px solid white;
         border-bottom: 2px solid white;

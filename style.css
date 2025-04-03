@@ -380,7 +380,6 @@ form .btn2 {
     color: #ff004f;
 }
 
-
 nav .fa-solid {
     display: none;
 }
@@ -390,8 +389,8 @@ nav .fa-solid {
         background: #262626;
         position: fixed;
         top: 0;
-        right:-200px;
-        width: 200px;
+        right: -200px;
+        width: 120px;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
@@ -409,7 +408,7 @@ nav .fa-solid {
         cursor: pointer;
         position: absolute;
     }
-    .fa-solid.fa-bars { right: 20px; }
+    .fa-solid.fa-bars { right: 10px; }
     .fa-solid.fa-circle-xmark { top: 25px; left: 25px; }
     
     .sub-title {
@@ -440,5 +439,4 @@ nav .fa-solid {
     .copyright {
         font-size: 14px;
     }
-   
 }

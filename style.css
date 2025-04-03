@@ -395,13 +395,14 @@ nav .fa-solid {
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
-        border: 10px solid white;
+        border-left: 2px solid white;
+        border-bottom: 2px solid white;
         border-bottom-left-radius: 20px;
     }
     
     nav ul li {
         display: block;
-        margin: 25px;
+        margin: 10px;
     }
     
     nav .fa-solid {
@@ -409,7 +410,7 @@ nav .fa-solid {
         font-size: 25px;
         cursor: pointer;
     }
-    .fa-solid.fa-bars { position: fixed; top: 40px; right: 15px; }
+    .fa-solid.fa-bars { position: fixed; top: 25px; right: 15px; }
     .fa-solid.fa-circle-xmark { position: absolute; top: 25px; left: 25px; }
     
     .sub-title {

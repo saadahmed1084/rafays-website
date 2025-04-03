@@ -407,7 +407,7 @@ nav .fa-solid {
         font-size: 25px;
         cursor: pointer;
     }
-    .fa-solid.fa-bars { position: sticky; right: 10px; }
+    .fa-solid.fa-bars { position: sticky; top: 40px; right: 15px; }
     .fa-solid.fa-circle-xmark { position: absolute; top: 25px; left: 25px; }
     
     .sub-title {

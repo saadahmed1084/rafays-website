@@ -1,12 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" />
-    <title>Abdul Rafay Ashfaq</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/5262bf68ba.js" crossorigin="anonymous"></script>
+<meta charset="utf-8"/>
+<title>Abdul Rafay Ashfaq</title>
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="shortcut icon" href="logo.png" type="image/png">
+<script src="https://kit.fontawesome.com/5262bf68ba.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 <div id="header">
     <div class="container">
@@ -22,7 +25,6 @@
             </ul>
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
-        <h1 class="header-text"><br><br><br><br><br></h1>
         <h1 class="header-text">Hi! I'm <span>Abdul Rafay</span><br> from Lahore, Pakistan</h1>
     </div>
 </div>
@@ -30,7 +32,7 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="portrait.png">
+                <img src="my-pics/portrait.png">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
@@ -39,27 +41,23 @@
                 </p>
                 <div class="tab-titles">
                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
                 </div>
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
-                        <li>Web Development<br><span>HTML, CSS, Javascript</span></li>
-                        <li>Programming<br><span>C++, Python</span></li>
-                        <li>Mathematics<br><span>Calculus, Linear Algebra, Statistics</span></li>
+                        <li>Web Development<br><span>HTML, CSS, Javascript, React, MongoDB</span></li>
+                        <li>Programming<br><span>C++, Python, Java, Assembly (MASM x86)</span></li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="experience">
                     <ul>
-    
-                        <li>Documentation Management Intern<br><span>MindBridge • Jun 2023 - Aug 2023</span></li>
+                        <!-- No work experience to show -->
                     </ul>
                 </div>
                 <div class="tab-contents" id="education">
                     <ul>
                         <li>Bachelor of Science - Computer Science <br> <span>National University of Computer & Emerging Sciences • 2022 - Present</span></li>
                         <li>GCE Advanced Level - Pre-Engineering <br> <span>Lahore Grammar School • 2020 - 2022</span></li>
-                        <li>GCE Ordinary Level - Biology <br> <span>Beaconhouse • 2017 - 2020</span></li>
                     </ul>
                 </div>
             </div>
@@ -85,34 +83,35 @@
             
     </div>
 </div>
+</div>
 <div id="portfolio">
     <div class="container">
-        <h1 class="sub-title">My Work</h1>
+        <h1 class="sub-title">My Projects</h1>
         <div class="work-list">
             <div class="work">
-                <img src="zumba.png" alt="Zumba video game">
+                <img src="project-images/zumba.png" alt="Zumba video game">
                 <div class="layer">
                     <h3>Zumba</h3>
                     <p>The classic video game programmed in x86 Assembly</p>
-                    <a href="https://github.com/rafayashfaq18/zumba"><i class="fa-solid fa-link"></i></a>
+                    <a href="https://github.com/rafayashfaq18/zumba" target="_blank"><i class="fa-solid fa-link"></i></a>
 
                 </div>
             </div>
             <div class="work">
-                <img src="art-gallery.png" alt="Art gallery website">
+                <img src="project-images/website.png" alt="Art gallery website">
                 <div class="layer">
                     <h3>Portfolio Website</h3>
-                    <p>A simple art gallery website developed using HTML and CSS</p>
-                    <a href="https://github.com/rafayashfaq18/rafayashfaq18.github.io"><i class="fa-solid fa-link"></i></a>
+                    <p>A personal website developed using HTML and CSS</p>
+                    <a href="https://github.com/rafayashfaq18/rafayashfaq18.github.io" target="_blank"><i class="fa-solid fa-link"></i></a>
 
                 </div>
             </div>
             <div class="work">
-                <img src="whack-a-mole-circuit.png" alt="Circuit on Proteus Design Suite">
+                <img src="project-images/whack-a-mole-circuit.png" alt="Circuit on Proteus Design Suite">
                 <div class="layer">
                     <h3>Whack-a-Mole</h3>
                     <p>A miniature circuit of the classic arcade game, built in Proteus Design Suite</p>
-                     <a href="https://github.com/rafayashfaq18/WhackAMole"><i class="fa-solid fa-link"></i></a>
+                     <a href="https://github.com/rafayashfaq18/WhackAMole" target="_blank"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
         </div>
@@ -136,7 +135,7 @@
                     <a href="https://www.linkedin.com/in/rafayashfaq18/"><i class="fa-brands fa-linkedin-in"></i></a>
                     <a href="https://www.github.com/rafayashfaq18/"><i class="fa-brands fa-github"></i></a>
                 </div>
-                <button class="btn btn2" onclick="alert('Resume is currently unavailable.')">View Resume</button>
+                <a class="btn btn2" href="docs/RafayAshfaq_Resume.pdf">View Resume</a>
             </div>
             <div class="contact-right">
                 <form>
@@ -147,13 +146,10 @@
                 </form>
             </div>
         </div>
-        <div class="copyright">
-            <p>Made with <i class="fa-solid fa-heart"></i> by ABDUL RAFAY ASHFAQ</p>
-        </div>
-    </div>
-    
 
+    </div>
 </div>
+    
 <script>
     var tablinks = document.getElementsByClassName("tab-links");
     var tabcontents = document.getElementsByClassName("tab-contents");
@@ -169,15 +165,16 @@
     }
 </script>
 <script>
-    var sidemeu=document.getElementById("sidemenu");
+    var sidemenu=document.getElementById("sidemenu");
     function openmenu(){
-        sidemeu.style.right="0";
-
+        sidemenu.style.right="0";
     }
     function closemenu(){
-        sidemeu.style.right="-200px";
-
+        sidemenu.style.right="-200px";
     }
 </script>
 </body>
+<footer class="copyright">
+    <p>Made with <i class="fa-solid fa-heart"></i> by ABDUL RAFAY ASHFAQ</p>
+</footer>
 </html>

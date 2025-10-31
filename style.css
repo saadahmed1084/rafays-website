@@ -72,6 +72,11 @@ nav {
     height: 12vh;
 }
 
+.services-list .logo {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
 nav ul li {
     display: inline-block;
     list-style: none;

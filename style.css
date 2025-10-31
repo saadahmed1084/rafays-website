@@ -231,7 +231,8 @@ nav ul li a:hover::after {
 }
 
 .work {
-    aspect-ratio: 380 / 555;  /* attempting to equalise heights */
+    width: 380px;
+    height: 555px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;

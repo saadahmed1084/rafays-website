@@ -183,7 +183,7 @@ nav ul li a:hover::after {
     padding: 30px 0;
 }
 
-#experience { padding: 0; }
+#experience { padding: 0 0 30px; }
 
 .education-list, .experience-list {
     display: grid;

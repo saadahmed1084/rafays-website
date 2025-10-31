@@ -179,9 +179,11 @@ nav ul li a:hover::after {
     display: block;
 }
 
-#education, #experience {
+#education {
     padding: 30px 0;
 }
+
+#experience { padding: 0; }
 
 .education-list, .experience-list {
     display: grid;

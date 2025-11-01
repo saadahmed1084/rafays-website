@@ -15,7 +15,7 @@ body {
 }
 
 .container { margin: 0 2%; }
-.education-list, .work-list { margin: 0 3vw; }
+.education-list, .work-list, .experience-list { margin: 0 3vw; }
 
 #header {
     width: 100%;
@@ -72,7 +72,7 @@ nav {
     height: 12vh;
 }
 
-.education-list .logo {
+.education-list .logo, .experience-list .logo {
     margin-top: 0px;
     margin-bottom: 10px;
 }

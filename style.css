@@ -186,7 +186,8 @@ nav ul li a:hover::after {
     padding: 30px 0;
 }
 
-#experience { padding: 0 0 30px; }
+#experience, #certifications { padding: 0 0 30px; }
+#certifications a { text-color: white; text-decoration: none; }
 
 .education-list, .experience-list {
     display: grid;

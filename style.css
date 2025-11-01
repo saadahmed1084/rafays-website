@@ -72,6 +72,8 @@ nav {
     height: 12vh;
 }
 
+#header .logo { cursor: pointer; }
+
 .education-list .logo, .experience-list .logo {
     margin-top: 0px;
     margin-bottom: 10px;

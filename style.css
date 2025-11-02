@@ -241,7 +241,6 @@ nav ul li a:hover::after {
 }
 
 .work {
-    width: 380px;
     height: 555px;
     border-radius: 10px;
     position: relative;

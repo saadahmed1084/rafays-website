@@ -18,8 +18,10 @@
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>   
             </ul>
@@ -36,86 +38,128 @@
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
-                <p>
-                    A passionate and hardworking computer science student seeking entry-level positions in the IT industry. A quick learner with strong problem-solving skills. I enjoy networking with my peers and look forward to opportunities to showcase my talent.
-                </p>
+                <p>Proactive CS undergraduate at FAST NUCES with hands-on experience in machine learning, web development, and game development. As a ML Intern at DevelopersHub Corporation, I have developed conversational AI chatbots, as well as predictive models using time-series and regression techniques. I have also designed responsive interfaces and optimised backend operations during my web development internship at Premier NX. I am currently open to entry-level opportunities where I can apply my technical foundation to build scalable, intelligent systems that solve real-world problems.</p>
                 <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links active-link" onclick="opentab('web')"><i class="fa-solid fa-globe"></i></p>
+                    <p class="tab-links" onclick="opentab('programming')"><i class="fa-solid fa-laptop-code"></i></p>
+                    <p class="tab-links" onclick="opentab('gamedev')"><i class="fa-solid fa-gamepad"></i></p>
                 </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li>Web Development<br><span>HTML, CSS, Javascript, React, MongoDB</span></li>
-                        <li>Programming<br><span>C++, Python, Java, Assembly (MASM x86)</span></li>
-                    </ul>
+                <div class="tab-contents active-tab" id="web">
+                    <h2>Web Development Tools</h2>
+                    <p>HTML, CSS, JavaScript, MongoDB, React.js, Node.js, PHP, Laravel</p>
                 </div>
-                <div class="tab-contents" id="experience">
-                    <ul>
-                        <!-- No work experience to show -->
-                    </ul>
+                <div class="tab-contents" id="programming">
+                    <h2>Programming Languages</h2>
+                    <p>C++, Python, Java, SQL, x86 Assembly</p>
                 </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li>Bachelor of Science - Computer Science <br> <span>National University of Computer & Emerging Sciences • 2022 - Present</span></li>
-                        <li>GCE Advanced Level - Pre-Engineering <br> <span>Lahore Grammar School • 2020 - 2022</span></li>
-                    </ul>
+                <div class="tab-contents" id="gamedev">
+                    <h2>Game Development Tools</h2>
+                    <p>Unity, C++ SFML (Simple & Fast Multimedia Library)</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div id="services">
+<div id="experience">
     <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
+        <h1 class="sub-title">Experience</h1>
+        <div class="experience-list">
             <div>
-                <i class="fa-solid fa-gamepad"></i>
-                <h2>Game Development</h2>
-                <p>I specialise in developing mobile and desktop gaming applications in Unity, Assembly, and C++ SFML.</p>
-                <a href="#">Learn more</a>  
+                <img src="companies/premiernx.png" class="logo">
+                <h2>Premier NX</h2>
+                <h3>Web Developer Intern</h3>
+                <h3>Jun 2025 - Aug 2025 | Lahore</h3>  
+                <a href="#contact">Learn more</a>
+            </div> 
+            <div>
+                <img src="companies/developershub.png" class="logo">
+                <h2>DevelopersHub</h2>
+                <h3>Machine Learning Intern</h3>
+                <h3>Jun 2025 - Jul 2025 | Remote</h3>
+                <a href="#contact">Learn more</a>
             </div>
             <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Design</h2>
-                <p>I provide web UI design and development services, working primarily in HTML, CSS, and Javascript.</p>
-                <a href="#">Learn more</a>  
-            </div>
-            
+                <img src="companies/softsincs.png" class="logo">
+                <h2>Softsincs</h2>
+                <h3>Python Developer Intern</h3>
+                <h3>May 2025 - Jul 2025 | Remote</h3>
+                <a href="#contact">Learn more</a>
+            </div> 
+        </div>
     </div>
 </div>
+<div id="education">
+    <div class="container">
+        <h1 class="sub-title">Education</h1>
+        <div class="education-list">
+            <div>
+                <img src="schools/fast.png" class="logo">
+                <h2>National University of Computer & Emerging Sciences | Islamabad</h2>
+                <h3>Bachelor of Science (B.S.), Computer Science</h3>
+                <h3>2022 - Present</h3> 
+            </div>
+            <div>
+                <img src="schools/lgs.jpg" class="logo">
+                <h2>Lahore Grammar School | Gulberg, Lahore</h2>
+                <h3>GCE AS & A Level, Pre-Engineering</h3>
+                <h3>2020 - 2022</h3>  
+            </div>  
+        </div>
+    </div>
 </div>
 <div id="portfolio">
     <div class="container">
-        <h1 class="sub-title">My Projects</h1>
+        <h1 class="sub-title">Projects</h1>
         <div class="work-list">
             <div class="work">
-                <img src="project-images/zumba.png" alt="Zumba video game">
+                <img src="project-images/hospital.png" alt="Hospital Management System">
                 <div class="layer">
-                    <h3>Zumba</h3>
-                    <p>The classic video game programmed in x86 Assembly</p>
-                    <a href="https://github.com/rafayashfaq18/zumba" target="_blank"><i class="fa-solid fa-link"></i></a>
-
+                    <h3>MedicalHospital</h3>
+                    <p>Full-stack Hospital Management System built with React, Node.js, and MongoDB. 
+                        Secure user authentication and role-based access control implemented with JWT.</p>
+                    <a href="https://github.com/rafayashfaq/MedicalHospital" target="_blank"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="project-images/website.png" alt="Art gallery website">
+                <img src="project-images/website.png" alt="Portfolio Website mobile-view">
                 <div class="layer">
                     <h3>Portfolio Website</h3>
                     <p>A personal website developed using HTML and CSS</p>
-                    <a href="https://github.com/rafayashfaq18/rafayashfaq18.github.io" target="_blank"><i class="fa-solid fa-link"></i></a>
-
+                    <a href="https://github.com/rafayashfaq/rafayashfaq.github.io" target="_blank"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="project-images/whack-a-mole-circuit.png" alt="Circuit on Proteus Design Suite">
+                <img src="project-images/torcs.png" alt="TORCS snapshot">
                 <div class="layer">
-                    <h3>Whack-a-Mole</h3>
-                    <p>A miniature circuit of the classic arcade game, built in Proteus Design Suite</p>
-                     <a href="https://github.com/rafayashfaq18/WhackAMole" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <h3>Automated Game-Playing Agent for TORCS</h3>
+                    <p></p>
+                     <a href="https://github.com/rafayashfaq" target="_blank"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
         </div>
         <!-- <a href="#"class="btn">See More</a> -->
+    </div>
+</div>
+<div id="certifications">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="education-list">
+            <a href="https://www.coursera.org/account/accomplishments/specialization/ZZ1EK6BDDCDR"><div>
+                <img src="companies/google.png" class="logo">
+                <h2>Google AI Essentials Specialization</h2>
+                <h3>Google</h3>
+            </div></a>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/AHPY28J0IDBI"><div>
+                <img src="companies/microsoft.png" class="logo">
+                <h2>Introduction to Generative AI for Developers with Copilot</h2>
+                <h3>Microsoft</h3>
+            </div></a>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/I6O2PRT62YWK"><div>
+                <img src="schools/uiuc.png" class="logo">
+                <h2>Introduction to Artificial Intelligence</h2>
+                <h3>University of Illinois Urbana-Champaign</h3>  
+            </div></a>
+        </div>
     </div>
 </div>
 <div id="contact">
@@ -133,7 +177,7 @@
                     <a href="https://www.facebook.com/rafay.ashfaq.923"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.instagram.com/rafayashfaq18/"><i class="fa-brands fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/in/rafayashfaq18/"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="https://www.github.com/rafayashfaq18/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.github.com/rafayashfaq/"><i class="fa-brands fa-github"></i></a>
                 </div>
                 <a class="btn btn2" href="docs/RafayAshfaq_Resume.pdf">View Resume</a>
             </div>

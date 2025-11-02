@@ -15,7 +15,7 @@ body {
 }
 
 .container { margin: 0 2%; }
-.education-list, .work-list, .experience-list { margin: 0 3vw; }
+.content-list, .project-list { margin: 0 3vw; }
 
 #header {
     width: 100%;
@@ -183,14 +183,14 @@ nav ul li a:hover::after {
 #experience, #certifications { padding: 0 0 30px; }
 #certifications a { color: white; text-decoration: none; }
 
-.education-list, .experience-list {
+.content-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
 
-.education-list div, .experience-list div {
+.content-list div {
     background: #262626;
     padding: 40px;
     font-size: 13px;
@@ -199,23 +199,24 @@ nav ul li a:hover::after {
     transition: background 0.5s, transform 0.5s;
 }
 
-.education-list div i, .experience-list div i {
+.content-list div i {
     font-size: 50px;
     margin-bottom: 30px;
 }
 
-.education-list div h2, .experience-list h2 {
+.content-list div h2 {
     font-size: 30px;
     font-weight: 500;
+    line-height: 1.2; /* for 30px of line, there will be 6px of spacing, half above, half below */
     margin-bottom: 15px;
 }
 
-.education-list div h3, .experience-list h3 {
+.content-list div h3 {
     font-size: 20px;
     font-weight: 500;
 }
 
-.education-list div a, .experience-list a {
+.content-list div a {
     text-decoration: none;
     color: #fff;
     font-size: 12px;
@@ -223,7 +224,7 @@ nav ul li a:hover::after {
     display: inline-block;
 }
 
-.education-list div:hover, .experience-list div:hover {
+.content-list div:hover {
     background: #ff004f;
     transform: translateY(-10px);
 }
@@ -232,7 +233,7 @@ nav ul li a:hover::after {
     padding: 50px 0;
 }
 
-.work-list {
+.project-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
@@ -240,13 +241,13 @@ nav ul li a:hover::after {
     align-items: stretch;  /* attempting to equalise heights */
 }
 
-.work {
+.project {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
 
-.work img {
+.project img {
     width: 100%;
     border-radius: 10px;
     display: block;
@@ -290,11 +291,11 @@ nav ul li a:hover::after {
     text-align: center;
 }
 
-.work:hover img {
+.project:hover img {
     transform: scale(1.1)
 }
 
-.work:hover .layer {
+.project:hover .layer {
     height: 100%;
 }
 

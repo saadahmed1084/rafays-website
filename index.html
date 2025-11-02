@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <title>Abdul Rafay Ashfaq</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="logo.png" type="image/png">
@@ -20,14 +21,14 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#education">Education</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>   
             </ul>
             <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
-        <h1 class="header-text">Hi! I'm <span>Abdul Rafay</span><br> from Lahore, Pakistan</h1>
+        <h1 class="header-text">Hi there!<br>I am <span>Abdul Rafay Ashfaq</span></h1>
     </div>
 </div>
 <div id="about">
@@ -38,7 +39,7 @@
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
-                <p>Proactive CS undergraduate at FAST NUCES with hands-on experience in machine learning, web development, and game development. As a ML Intern at DevelopersHub Corporation, I have developed conversational AI chatbots, as well as predictive models using time-series and regression techniques. I have also designed responsive interfaces and optimised backend operations during my web development internship at Premier NX. I am currently open to entry-level opportunities where I can apply my technical foundation to build scalable, intelligent systems that solve real-world problems.</p>
+                <p>Proactive CS undergraduate at FAST NUCES with hands-on experience in machine learning, web development, and game development. As a ML Intern at DevelopersHub Corporation, I have developed conversational AI chatbots, as well as predictive models using time-series and regression techniques. I have also designed responsive interfaces and optimised backend operations during my web development internship at Premier NX. I am currently open to entry-level roles where I can apply my skills to build systems that solve real-world problems.</p>
                 <div class="tab-titles">
                     <p class="tab-links active-link" onclick="opentab('web')"><i class="fa-solid fa-globe"></i></p>
                     <p class="tab-links" onclick="opentab('programming')"><i class="fa-solid fa-laptop-code"></i></p>
@@ -63,22 +64,22 @@
 <div id="experience">
     <div class="container">
         <h1 class="sub-title">Experience</h1>
-        <div class="experience-list">
-            <div>
+        <div class="content-list">
+            <div class="content-item">
                 <img src="companies/premiernx.png" class="logo">
                 <h2>Premier NX</h2>
                 <h3>Web Developer Intern</h3>
                 <h3>Jun 2025 - Aug 2025 | Lahore</h3>  
                 <a href="#contact">Learn more</a>
             </div> 
-            <div>
+            <div class="content-item">
                 <img src="companies/developershub.png" class="logo">
                 <h2>DevelopersHub</h2>
                 <h3>Machine Learning Intern</h3>
                 <h3>Jun 2025 - Jul 2025 | Remote</h3>
                 <a href="#contact">Learn more</a>
             </div>
-            <div>
+            <div class="content-item">
                 <img src="companies/softsincs.png" class="logo">
                 <h2>Softsincs</h2>
                 <h3>Python Developer Intern</h3>
@@ -91,49 +92,71 @@
 <div id="education">
     <div class="container">
         <h1 class="sub-title">Education</h1>
-        <div class="education-list">
-            <div>
+        <div class="content-list">
+            <div class="content-item">
                 <img src="schools/fast.png" class="logo">
-                <h2>National University of Computer & Emerging Sciences | Islamabad</h2>
+                <h2>FAST National University,<br>Islamabad</h2>
                 <h3>Bachelor of Science (B.S.), Computer Science</h3>
                 <h3>2022 - Present</h3> 
             </div>
-            <div>
+            <div class="content-item">
                 <img src="schools/lgs.jpg" class="logo">
-                <h2>Lahore Grammar School | Gulberg, Lahore</h2>
+                <h2>Lahore Grammar School,<br>Lahore</h2>
                 <h3>GCE AS & A Level, Pre-Engineering</h3>
                 <h3>2020 - 2022</h3>  
-            </div>  
+            </div>
+            <div class="content-item">
+                <img src="schools/bss.png" class="logo">
+                <h2>Beaconhouse School System,<br>Lahore</h2>
+                <h3>GCE O Level, Sciences</h3>
+                <h3>2017 - 2020</h3>  
+            </div>
         </div>
     </div>
 </div>
-<div id="portfolio">
+<div id="projects">
     <div class="container">
         <h1 class="sub-title">Projects</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="project-images/hospital.png" alt="Hospital Management System">
+        <div class="project-list">
+            <div class="project">
+                <img src="project-images/hospital.png" alt="Hospital Management System logo">
                 <div class="layer">
-                    <h3>MedicalHospital</h3>
-                    <p>Full-stack Hospital Management System built with React, Node.js, and MongoDB. 
+                    <h3>Hospital Management System</h3>
+                    <p>Full-stack HMS built with React, Node.js, and MongoDB. 
                         Secure user authentication and role-based access control implemented with JWT.</p>
                     <a href="https://github.com/rafayashfaq/MedicalHospital" target="_blank"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
-            <div class="work">
+            <div class="project">
                 <img src="project-images/website.png" alt="Portfolio Website mobile-view">
                 <div class="layer">
                     <h3>Portfolio Website</h3>
-                    <p>A personal website developed using HTML and CSS</p>
+                    <p>Personal website developed using HTML and CSS</p>
                     <a href="https://github.com/rafayashfaq/rafayashfaq.github.io" target="_blank"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
-            <div class="work">
+            <div class="project">
                 <img src="project-images/torcs.png" alt="TORCS snapshot">
                 <div class="layer">
                     <h3>Automated Game-Playing Agent for TORCS</h3>
-                    <p></p>
-                     <a href="https://github.com/rafayashfaq" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    <p>Automated car racing simulation developed with PyTorch</p>
+                    <a href="https://github.com/rafayashfaq/TorcsCarSimulator" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="project-images/tictactoe.png" alt="Tic-Tac-Toe board over yellow background">
+                <div class="layer">
+                    <h3>Ultimate Tic-Tac-Toe</h3>
+                    <p>Player vs. AI Tic-Tac-Toe game programmed with an interactive GUI in Python</p>
+                    <a href="https://github.com/rafayashfaq/UltimateTicTacToe" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="project-images/xonix.png" alt="XONIX interface">
+                <div class="layer">
+                    <h3>XONIX</h3>
+                    <p>SFML clone of XONIX, the classic arcade game</p>
+                    <a href="https://github.com/rafayashfaq/Xonix" target="_blank"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
         </div>
@@ -143,18 +166,18 @@
 <div id="certifications">
     <div class="container">
         <h1 class="sub-title">Certifications</h1>
-        <div class="education-list">
-            <a href="https://www.coursera.org/account/accomplishments/specialization/ZZ1EK6BDDCDR"><div>
+        <div class="content-list">
+            <a href="https://www.coursera.org/account/accomplishments/specialization/ZZ1EK6BDDCDR"><div class="content-item">
                 <img src="companies/google.png" class="logo">
                 <h2>Google AI Essentials Specialization</h2>
                 <h3>Google</h3>
             </div></a>
-            <a href="https://www.coursera.org/account/accomplishments/certificate/AHPY28J0IDBI"><div>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/AHPY28J0IDBI"><div class="content-item">
                 <img src="companies/microsoft.png" class="logo">
                 <h2>Introduction to Generative AI for Developers with Copilot</h2>
                 <h3>Microsoft</h3>
             </div></a>
-            <a href="https://www.coursera.org/account/accomplishments/certificate/I6O2PRT62YWK"><div>
+            <a href="https://www.coursera.org/account/accomplishments/certificate/I6O2PRT62YWK"><div class="content-item">
                 <img src="schools/uiuc.png" class="logo">
                 <h2>Introduction to Artificial Intelligence</h2>
                 <h3>University of Illinois Urbana-Champaign</h3>  

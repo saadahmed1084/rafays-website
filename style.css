@@ -109,6 +109,11 @@ nav ul li a:hover::after {
 }
 #about h2 { margin-bottom: 0.5rem; }
 .skillicons { margin-bottom: 0; }
+h2.skillicons i {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+}
 
 .row {
     display: flex;

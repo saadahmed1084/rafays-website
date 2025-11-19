@@ -20,7 +20,7 @@ body {
 #header {
     width: 100%;
     min-height: 100vh;
-    background-image: url(my-pics/background-image.png);
+    background-image: url(assets/images/my-pics/background-image.png);
     background-size: cover;
     background-position: 90% center;
 }

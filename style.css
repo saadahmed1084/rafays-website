@@ -112,10 +112,14 @@ h2.skillicons {
     gap: 10px;
     margin-bottom: 0;
 }
-h2.skillicons i {
+h2.skillicons i, h2.skillicons img {
     display: inline-block;
     vertical-align: middle;
     line-height: 1;
+}
+h2.skillicons img {
+    height: 24px;
+    width: 24px;
 }
 
 .row {

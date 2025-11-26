@@ -179,6 +179,29 @@ nav ul li a:hover::after {
     display: block;
 }
 
+.skillicons i, .skillicons img {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    cursor: pointer;
+}
+
+.skilltext {
+    visibility: hidden;
+    width: 130px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.skillicons i:hover .skilltext, .skillicons img:hover .skilltext {
+    visibility: visible;
+}
+
 #education { padding: 30px 0; }
 #contact { padding: 30px 0 0; }
 #experience, #certifications { padding: 0 0 30px; }

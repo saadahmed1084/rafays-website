@@ -129,7 +129,7 @@ h2.skillicons i, h2.skillicons img {
 }
 h2.skillicons i:hover, h2.skillicons img:hover { 
     transform: translateY(-2px) scale(1.06);
-    filter: drop-shadow(0 0 4px white); /* shadow around actual pixel boundaries instead of box boundaries */
+    /* filter: drop-shadow(0 0 4px white); shadow around actual pixel boundaries instead of box boundaries */
 }
 
 h2.skillicons img {

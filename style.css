@@ -124,13 +124,12 @@ h2.skillicons {
 h2.skillicons i, h2.skillicons img {
     display: inline-block;
     vertical-align: middle;
-    transition: transform 0.2s ease, opacity 0.2s ease, filter 0.25s ease;
+    transition: transform 0.2s ease, filter 0.25s ease;
     line-height: 1;
 }
 h2.skillicons i:hover, h2.skillicons img:hover { 
     transform: translateY(-2px) scale(1.06);
-    filter: drop-shadow(0 0 6px white);
-    opacity: 0.85; 
+    filter: drop-shadow(0 0 4px white); /* shadow around actual pixel boundaries instead of box boundaries */
 }
 
 h2.skillicons img {

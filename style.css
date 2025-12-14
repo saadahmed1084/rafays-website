@@ -172,6 +172,7 @@ h2.skillicons img {
     font-weight: 500;
     cursor: pointer;
     position: relative;
+    transition: 0.5s;
 }
 
 .tab-links::after {
@@ -188,6 +189,8 @@ h2.skillicons img {
 .tab-links.active-link::after {
     width: 50%;
 }
+
+.tab-links i:hover { transform: scale(1.06); }
 
 .tab-contents ul li {
     list-style: none;

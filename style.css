@@ -24,7 +24,7 @@ body {
     min-height: 100vh;
     background-image: url(assets/images/my-pics/background-image.png);
     background-size: cover;
-    background-position: 90% center;
+    background-position: 90% center; /* horizontal/vertical - to center the face from bg-image in mobile view */
 }
 
 #header .container {

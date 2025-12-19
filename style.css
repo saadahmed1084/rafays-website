@@ -5,15 +5,8 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    background: #080808;
-    color: #fff;
-}
-
+html { scroll-behavior: smooth; }
+body { background: #080808; color: #fff; }
 .container { margin: 0 2%; }
 .content-list, .project-list { margin: 0 3vw; }
 
@@ -55,9 +48,7 @@ body {
     If there's no relative ancestor, it will be 20px above the bottom of the whole page. */
 }
 
-.header-text span {
-    color: yellowgreen;
-}
+.header-text span { color: yellowgreen; }
 
 nav {
     display: flex;
@@ -100,14 +91,8 @@ nav ul li a::after {
     transition: 0.5s;
 }
 
-nav ul li a:hover::after {
-    width: 100%;
-}
-
-
-nav .fa-solid {
-    display: none;
-}
+nav ul li a:hover::after { width: 100%; }
+nav .fa-solid { display: none; }   /* don't display 'Close Navbar' button in desktop view */ 
 
                         /*   about   */
 
@@ -132,10 +117,7 @@ h2.skillicons i:hover, h2.skillicons img:hover {
     /* filter: drop-shadow(0 0 4px white); shadow around actual pixel boundaries instead of box boundaries */
 }
 
-h2.skillicons img {
-    height: 25px;
-    width: 25px;
-}
+h2.skillicons img { height: 25px; width: 25px; }
 
 .row {
     display: flex;
@@ -143,29 +125,15 @@ h2.skillicons img {
     flex-wrap: wrap;
 }
 
-.about-col-1 {
-    flex-basis: 35%;
-}
+.about-col-1 { flex-basis: 35%; }
+.about-col-1 img { width: 100%; border-radius: 15px; }
+.about-col-2 { flex-basis: 60%; }
+.sub-title { font-size: 60px; font-weight: 600; }
 
-.about-col-1 img {
-    width: 100%;
-    border-radius:  15px; ;
-}
+/* skill tab buttons div */
+.tab-titles { display: flex; margin: 20px 0 20px; }
 
-.about-col-2 {
-    flex-basis: 60%;
-}
-
-.sub-title {
-    font-size: 60px;
-    font-weight: 600;
-}
-
-.tab-titles {
-    display: flex;
-    margin: 20px 0 20px;
-}
-
+/* individual skill tab buttons */
 .tab-links {
     margin-right: 50px; 
     font-size: 18px;
@@ -186,29 +154,12 @@ h2.skillicons img {
     transition: 0.5s ;
 }
 
-.tab-links.active-link::after {
-    width: 50%;
-}
-
+.tab-links.active-link::after { width: 50%; }
 .tab-links i:hover { transform: scale(1.06); }
-
-.tab-contents ul li {
-    list-style: none;
-    margin: 10px 0;
-}
-
-.tab-contents ul li span {
-    color: #b54769;
-    font-size: 14px;
-}
-
-.tab-contents {
-    display: none;
-}
-
-.tab-contents.active-tab {
-    display: block;
-}
+.tab-contents ul li { list-style: none; margin: 10px 0; }
+.tab-contents ul li span { color: #b54769; font-size: 14px; }
+.tab-contents { display: none; }
+.tab-contents.active-tab { display: block; }
 
                         /*   general sections   */
 
@@ -266,9 +217,7 @@ h2.skillicons img {
 
                         /*   projects   */
 
-#projects {
-    padding: 50px 0;
-}
+#projects { padding: 50px 0; }
 
 .project-list {
     display: grid;
@@ -310,10 +259,7 @@ h2.skillicons img {
     transition: height 0.5s;
 }
 
-.layer h3 {
-    font-weight: 500;
-    margin-bottom: 20px;
-}
+.layer h3 { font-weight: 500; margin-bottom: 20px; }
 
 .layer a {
     margin-top: 20px;
@@ -328,13 +274,8 @@ h2.skillicons img {
     text-align: center;
 }
 
-.project:hover img {
-    transform: scale(1.1)
-}
-
-.project:hover .layer {
-    height: 100%;
-}
+.project:hover img { transform: scale(1.1) }
+.project:hover .layer { height: 100%; }
 
 .btn {
     display: block;
@@ -348,23 +289,13 @@ h2.skillicons img {
     transition: background 0.5s;
 }
 
-.btn:hover {
-    background: #ff004f;
-}
+.btn:hover { background: #ff004f; }
 
                         /*   contact info   */
 
-.contact-left {
-    flex-basis: 35%;
-}
-
-.contact-right {
-    flex-basis: 60%;
-}
-
-.contact-left p {
-    margin-top: 30px;
-}
+.contact-left { flex-basis: 35%; }
+.contact-right { flex-basis: 60%; }
+.contact-left p { margin-top: 30px; }
 
 .contact-left p i {
     color: #ff004f;
@@ -373,10 +304,7 @@ h2.skillicons img {
 }
 
 .contact-link { color: #ffffff; }
-
-.social-icons {
-    margin-top: 30px;
-}
+.social-icons { margin-top: 30px; }
 
 .social-icons a {
     text-decoration: none;
@@ -398,14 +326,8 @@ h2.skillicons img {
     cursor: pointer;
 }
 
-button a {
-    color: inherit; 
-    text-decoration: inherit;
-}
-
-.contact-right form {
-    width: 100%;
-}
+button a { color: inherit; text-decoration: inherit; }
+.contact-right form { width: 100%; }
 
 form input, form textarea {
     width: 100%;

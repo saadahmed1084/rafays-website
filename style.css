@@ -428,7 +428,7 @@ form .btn2 {
 
                         /*   footer   */
 
-.copyright {
+footer {
     width: 100%;
     text-align: center;
     padding: 25px 0;
@@ -437,9 +437,7 @@ form .btn2 {
     margin-top: 20px;
 }
 
-.copyright i {
-    color: #ff004f;
-}
+footer i { color: #ff004f; }
 
                         /*   mobile screen properties   */
 
@@ -469,35 +467,14 @@ form .btn2 {
         font-size: 25px;
         cursor: pointer;
     }
-    .fa-solid.fa-bars { position: fixed; top: 30px; right: 15px; z-index: 2; }
-    .fa-solid.fa-circle-xmark { position: absolute; top: 15px; left: 10px; }
+    .fa-solid.fa-bars { position: fixed; top: 30px; right: 15px; z-index: 2; }  /* a fixed element is positioned relative to the browser viewport and stays put when the page scrolls */
+    .fa-solid.fa-circle-xmark { position: absolute; top: 15px; left: 10px; }    /* an absolute element is positioned relative to its closest positioned ancestor and moves with the page flow unless that ancestor is also fixed */
     
-    .sub-title {
-        font-size: 40px;
-    }
-    
-    .about-col-1,.about-col-2 {
-        flex-basis: 100%;
-    }
-    
-    .about-col-1 {
-        margin-bottom: 30px;
-    }
-    
-    .about-col-2 {
-        font-size: 14px;
-    }
-    
-    .tab-links {
-        font-size: 16px;
-        margin-right: 20px;
-    }
-    
-    .contact-left,.contact-right {
-        flex-basis: 100%;
-    }
-    
-    .copyright {
-        font-size: 14px;
-    }
+    .sub-title { font-size: 40px; }
+    .about-col-1,.about-col-2 { flex-basis: 100%; }
+    .about-col-1 { margin-bottom: 30px; }
+    .about-col-2 { font-size: 14px; }
+    .tab-links { font-size: 16px; margin-right: 20px; }
+    .contact-left,.contact-right { flex-basis: 100%; }
+    footer { font-size: 14px;}
 }

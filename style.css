@@ -288,7 +288,6 @@ h2.skillicons img { height: 25px; width: 25px; }
     color: #fff;
     transition: background 0.5s;
 }
-
 .btn:hover { background: #ff004f; }
 
                         /*   contact info   */
@@ -358,7 +357,6 @@ footer {
     font-weight: 300;
     margin-top: 20px;
 }
-
 footer i { color: #ff004f; }
 
                         /*   mobile screen properties   */
@@ -378,11 +376,7 @@ footer i { color: #ff004f; }
         border-bottom: 2px solid white;
         border-bottom-left-radius: 20px;
     }
-    
-    nav ul li {
-        display: block;
-        margin: 10px;
-    }
+    nav ul li { display: block; margin: 10px; }
     
     nav .fa-solid {
         display: block;

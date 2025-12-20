@@ -99,25 +99,25 @@ nav .fa-solid { display: none; }   /* don't display 'Close Navbar' button in des
 #about { padding: 80px 0 30px; }
 #about h2 { margin-bottom: 0.5rem; }
 
-h2.skillicons {
+h2.skill-icons {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 0;
 }
 
-h2.skillicons i, h2.skillicons img {
+h2.skill-icons i, h2.skill-icons img {
     display: inline-block;
     vertical-align: middle;
     transition: transform 0.2s ease, filter 0.25s ease;
     line-height: 1;
 }
-h2.skillicons i:hover, h2.skillicons img:hover { 
+h2.skill-icons i:hover, h2.skill-icons img:hover { 
     transform: translateY(-2px) scale(1.06);
     /* filter: drop-shadow(0 0 4px white); shadow around actual pixel boundaries instead of box boundaries */
 }
 
-h2.skillicons img { height: 25px; width: 25px; }
+h2.skill-icons img { height: 25px; width: 25px; }
 
 .row {
     display: flex;
@@ -130,8 +130,7 @@ h2.skillicons img { height: 25px; width: 25px; }
 .about-col-2 { flex-basis: 60%; }
 .sub-title { font-size: 60px; font-weight: 600; }
 
-/* skill tab buttons div */
-.tab-titles { display: flex; margin: 20px 0 20px; }
+.skill-categories { display: flex; margin: 20px 0 20px; }
 
 /* individual skill tab buttons */
 .tab-links {

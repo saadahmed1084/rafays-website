@@ -139,7 +139,7 @@ h2.skill-icons img { height: 25px; width: 25px; }
     font-weight: 500;
     cursor: pointer;
     position: relative;
-    transition: 0.5s;
+    transition: 0.25s ease;
 }
 
 .tab-links::after {

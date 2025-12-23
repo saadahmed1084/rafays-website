@@ -99,24 +99,23 @@ nav .fa-solid { display: none; }   /* don't display 'Close Navbar' button in des
 #about { padding: 80px 0 30px; }
 #about h2 { margin-bottom: 0.5rem; }
 
-h2.skill-icons {
+.skill-icons {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 0;
 }
 
-h2.skill-icons i, h2.skill-icons img {
+.skill-icons i, .skill-icons img {
     display: inline-block;
-    vertical-align: middle;
     transition: transform 0.2s ease, filter 0.25s ease;
     line-height: 1;
-    height: 25px;
 }
-h2.skill-icons i:hover, h2.skill-icons img:hover { transform: translateY(-2px) scale(1.06); }
-h2.skill-icons i { width: 25px; padding: 0; }
+.skill-icons i:hover, .skill-icons img:hover { transform: translateY(-2px) scale(1.06); }
+.skill-icons i { font-size: 25px; }  /* The earlier problem was that I fixed the <i>'s height and width to 25px. As it's an inline font element, the font size would change and leave empty spaces in the 25px box. */
+.skill-icons img { height: 25px; }
 
-.row {
+.row { /* the 'about' section divided into two flex columns (portrait + intro) */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

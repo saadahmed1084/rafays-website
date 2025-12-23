@@ -117,7 +117,7 @@ h2.skill-icons i:hover, h2.skill-icons img:hover {
     /* filter: drop-shadow(0 0 4px white); shadow around actual pixel boundaries instead of box boundaries */
 }
 
-h2.skill-icons img { height: 25px; width: 25px; }
+h2.skill-icons i, h2.skill-icons img { height: 25px; width: 25px; }
 
 .row {
     display: flex;

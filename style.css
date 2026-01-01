@@ -67,20 +67,20 @@ nav {
 
 #header .logo { margin-top: 10px; cursor: pointer; }
 
-sidemenu li {
+#sidemenu li {
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
 }
 
-sidemenu li a {
+#sidemenu li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     position: relative;
 }
 
-sidemenu li a::after {
+#sidemenu li a::after {
     content: "";
     width: 0%;
     height: 3px;
@@ -92,7 +92,7 @@ sidemenu li a::after {
 }
 
 nav .fa-solid { display: none; }   /* don't display 'Close Navbar' button in desktop view */
-sidemenu li a:hover::after { width: 100%; } 
+#sidemenu li a:hover::after { width: 100%; } 
 
                         /*   about   */
 
@@ -357,7 +357,7 @@ footer i { color: #ff004f; }
                         /*   mobile screen properties   */
 
 @media only screen and (max-width: 1000px) {
-    sidemenu {
+    #sidemenu {
         background: #262626;
         position: fixed;
         top: 0;
@@ -371,7 +371,7 @@ footer i { color: #ff004f; }
         border-bottom: 2px solid white;
         border-bottom-left-radius: 20px;
     }
-    sidemenu li { display: block; margin: 10px; }
+    #sidemenu li { display: block; margin: 10px; }
     
     nav .fa-solid {
         display: block;
